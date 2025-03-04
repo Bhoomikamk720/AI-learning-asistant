@@ -1,0 +1,93 @@
+.chat-tutor-container {
+  width: 50%;
+  margin: auto;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.mode-switch {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.mode-switch:hover {
+  background: #0056b3;
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: auto;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.user-msg {
+  text-align: right;
+  color: #007bff;
+  padding: 5px;
+}
+
+.bot-msg {
+  text-align: left;
+  color: #28a745;
+  padding: 5px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.send-btn, .voice-btn {
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.voice-btn {
+  background: #28a745;
+}
+
+.send-btn:hover {
+  background: #0056b3;
+}
+
+.voice-btn:hover {
+  background: #1e7e34;
+}
+
+h3 {
+  color:#1e7e34;
+  margin-top: 15px;
+}
+
+.badges {
+  color: #ff9800;
+  font-weight: bold;
+}
